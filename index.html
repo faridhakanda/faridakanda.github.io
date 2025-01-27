@@ -3,11 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Farid Akanda | Computer Programmer and Full Stack Developer.</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h1>Farid Akanda</h1>
+    <!-- This is Navigation part! -->
+    <header>
+        <div class="main_headers">
+            <h1>
+                <a href="#home">Farid</a>
+            </h1>
+            <div class="contact">
+                <ul>
+                    <li>
+                        <a href="https://www.github.com/faridhakanda">
+                            <img src="github.png" alt="github" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com/faridhakanda">
+                            <img src="xt.png" alt="x" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.t.me/faridhakanda">
+                            <img src="telegram.png" alt="telegram" />
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="image_part">
+            <img class="image_farid" src="my_image.jpg" alt="farid" />
+            <h1 class="main_name">Farid Akanda</h1>
+        </div>
+        <section id="about">
+            <h2>Hello!</h2>
+            <h3 style="padding-left: 5px; padding-right: 5px;">I&rsquo;m Farid, a computer programmer and full stack developer living in Bangladesh.</h3>
+        </section>
+        <section id="skill">
+            <div class="skill_part">
+                <h1>Skills: </h1>
+                <h2>Languages: </h2>
+                <div class="skill_contents">
+                    <ul class="skill_content_list">
+                        <li>
+                            <img src="blaze.png" alt="languages" />
+                            <h4>C/C++</h4>
+                        </li>
+                        <li>
+                            <img src="blaze.png" alt="languages" />
+                            <h4>Python</h4>
+                        </li>
+                        <li>
+                            <img src="blaze.png" alt="languages" />
+                            <h4>Javascript</h4>
+                        </li>
+                        <li>
+                            <img src="blaze.png" alt="languages" />
+                            <h4>SQL</h4>
+                        </li>
+                    </ul>
+                </div>
+                <h2>Tools &amp; Technologies: </h2>
+                <div class="skill_contents">
+                    <ul class="skill_content_list">
+                        <li>
+                            <img src="blaze.png" alt="languages" />
+                            <h4>TailwindCSS</h4>
+                        </li>
+                        <li>
+                            <img src="blaze.png" alt="languages" />
+                            <h4>ReactJS</h4>
+                        </li>
+                        <li>
+                            <img src="blaze.png" alt="languages" />
+                            <h4>NextJS</h4>
+                        </li>
+                        <li>
+                            <img src="blaze.png" alt="languages" />
+                            <h4>Django</h4>
+                        </li>
+                        <li>
+                            <img src="blaze.png" alt="languages" />
+                            <h4>RestAPI</h4>
+                        </li>
+                        <li>
+                            <img src="blaze.png" alt="languages" />
+                            <h4>PostgreSQL</h4>
+                        </li>
+                        <li>
+                            <img src="blaze.png" alt="languages" />
+                            <h4>Git</h4>
+                        </li>
+                        <li>
+                            <img src="blaze.png" alt="languages" />
+                            <h4>Github</h4>
+                        </li>
+                        <li>
+                            <img src="blaze.png" alt="languages" />
+                            <h4>Linux</h4>
+                        </li>
+                        <li>
+                            <img src="blaze.png" alt="languages" />
+                            <h4>Postman</h4>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+
+        </section>
+    </main>
     
+    <footer>
+        <div class="footer">
+            <p>Powered by</p>
+            <h1>Farid Akanda</h1>
+            
+            <h4>Farid Akanda &copy; All Rights Reserved <span id="my_year"></span>.</h4>
+        </div>
+    </footer>
+    <script>
+        const dateOfYear = new Date();
+        const forYear = dateOfYear.getFullYear();
+        document.getElementById("my_year").innerHTML = forYear;
+    </script>
 </body>
 </html>
